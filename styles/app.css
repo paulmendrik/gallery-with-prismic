@@ -1,0 +1,400 @@
+@import url('https://use.typekit.net/zbx2mkf.css');
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css";
+
+
+html {
+  margin: 0;
+  height: 100%;
+	background: #fff;
+	font-family: "futura-pt";
+	font-weight: normal;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	letter-spacing: .03rem;
+	color: #454545;
+}
+
+body {
+  margin: 0;
+	height: 100%;
+	font-family: "futura-pt";
+	font-weight: normal;
+	font-size: 1rem;
+	line-height: 1.5;
+	letter-spacing: .03rem;
+	color: #454545;
+}
+
+h1.logo {
+  padding: 0;
+  margin: 0;
+  background: #fff url("/logo.svg") left center no-repeat;
+  font-family: futura-pt, sans-serif;
+  font-size: 3.375rem;
+  font-weight: 400;
+  line-height: 7.375rem;
+  color: transparent;
+}
+
+.title {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: .0625rem solid #e5e5e5;
+  border-top: .0625rem solid #e5e5e5;
+  font-family: futura-pt, sans-serif;
+  font-size: 3rem;
+  font-feature-settings: "smcp";
+  font-variant: small-caps;
+  letter-spacing: .03rem;
+  font-weight:400;
+  line-height: 1.2 ;
+}
+
+h1.title {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: .0625rem solid #e5e5e5;
+  border-top: .0625rem solid #e5e5e5;
+  font-family: futura-pt, sans-serif;
+  font-size: 3rem;
+  font-feature-settings: "smcp";
+  font-variant: small-caps;
+  letter-spacing: .03rem;
+  font-weight:400;
+  line-height: 1.2 ;
+}
+
+h2.subtitle {
+  padding-bottom: 1rem;
+  border-bottom: .0625rem solid #e5e5e5;
+  font-family: futura-pt, sans-serif;
+  font-size: 2rem;
+  font-feature-settings: "smcp";
+  font-variant: small-caps;
+  letter-spacing: .03rem;
+  font-weight:400
+}
+
+.gallery,.about, .giclee, .canvas, .exhibitions, .press, .contact {
+  margin-top: 2rem;
+}
+
+.menubtn {
+text-align: right;
+}
+
+.menubtn .ant-btn {
+  margin-top: 2.35rem;
+  border: none;
+}
+
+.anticon-menu {
+  font-size: 32px;
+}
+
+.ant-drawer-content-wrapper {
+  width: 100% !important;
+}
+
+.ant-drawer-body {
+  padding-top: 8rem;
+}
+
+.ant-drawer-close {
+  font-size: 1.5rem;
+}
+
+
+
+p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.ant-typography a {
+  color: #454545;
+}
+
+.ant-typography a:hover {
+  color: #000;
+}
+
+span.ant-typography a {
+  padding: 0.75rem 0; 
+  display: block;
+  font-size: 2rem;
+  color: #454545;
+  text-align: center;
+}
+
+.slider,
+.slider > .ant-carousel,
+.slider > .ant-carousel > .slick-slider > .slick-list,
+.slider > .ant-carousel > .slick-slider > .slick-list > .slick-track,
+.slider > .ant-carousel >  .slick-slider > .slick-list > .slick-track > .slick-slide {
+  width: 100%;
+  height: 100vh;
+}
+
+.slider > .ant-carousel >  .slick-slider > .slick-list > .slick-track > .slick-slide img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.slider > .ant-carousel .slick-next,
+.slider > .ant-carousel .slick-next:hover {
+  display: none !important;
+  right: 0;
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAABWBAMAAAEMhjhlAAAAOGVYSWZNTQAqAAAACAABh2kABAAAAAEAAAAaAAAAAAACoAIABAAAAAEAAAAwoAMABAAAAAEAAABWAAAAAO6NzNsAAAASUExURQAAAP///////////////////z5SrToAAAAFdFJOUwAuXYD9Hm11tQAAAKNJREFUSMftk78OgyAQxn8F2TvY3aG+Qd2JkZ0Y7/1fpQOmPQ04tEnTWm/gvj8H+RIAAAcQ16AFEx/tQqoBqPwaxLTl2XA+zYftbmRrxaIrabj4NnVjEptXCWbONKl8lXwLMzLH/ADGKgxnhe2oSKfHWlHW4rT/sIL4/DXu0cDpd4pffOpbQ7Y6mbJOLVJwroezN8cEEekP/dd1bEEHW9DhlFXvrx577cFzYfMAAAAASUVORK5CYII=)
+  center center no-repeat;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  width: 5rem;
+  height: 5rem;
+}
+
+.slider > .ant-carousel .slick-prev,
+.slider > .ant-carousel .slick-prev:hover {
+  display: none !important;
+  left: 0;
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAABWBAMAAAEMhjhlAAAAOGVYSWZNTQAqAAAACAABh2kABAAAAAEAAAAaAAAAAAACoAIABAAAAAEAAAAwoAMABAAAAAEAAABWAAAAAO6NzNsAAAASUExURQAAAP///////////////////z5SrToAAAAFdFJOUwAuXYD9Hm11tQAAAKJJREFUSMftlUEKwyAQRR8S9zlCoM3eI9iW7G3iv/9VukgWk6KUkkVoGhczf/4TFUYRAPBAWiXPrN8EMILvbKrP1Ry7cvRp2fxDXkYLgJsA6BOA0/cFQwSgyWwuozleH4zWuIuGQXHPat0xS4xulMoLNMrHButmOc3v4OjoaZF5JVzKd8U9Kv6gqeJLt4p/P/1f8blKyh0n+RsSKJNQ+UZaeAHPon4n3CTAnQAAAABJRU5ErkJggg==)
+  center center no-repeat;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  width: 5rem;
+  height: 5rem;
+  z-index: 1000;
+}
+
+.exhibitions > .ant-carousel{
+  width: 100% !important;
+  height: auto !important;
+
+}
+
+.exhibitions figure {
+  margin: 0;
+}
+
+
+.exhibitions h2 {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-family: futura-pt, sans-serif;
+  font-size: 2.25rem;
+  font-variant: small-caps;
+  letter-spacing: .03rem;
+  font-weight:400;
+  line-height:1;
+}
+
+.exhibitions ul li {
+  font-family: futura-pt, sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: #454545;
+}
+
+.exhibitions ul li code {
+  padding: 0;
+  background: none;
+  font-family: futura-pt, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #454545;
+
+}
+
+figure {
+  margin: 0.25rem !important;
+}
+
+
+.image-wrap {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fancybox-caption__body h3 {
+  margin: 0;
+  font-size: 2.25rem;
+  line-height: 1.5;
+  color:#fff
+}
+
+.fancybox-caption__body p {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color:#fff
+}
+
+figcaption {
+  display: none;
+}
+
+.gallery a ul {
+  display:none
+}
+
+li.caption {
+  margin-top: 0;
+  list-style:none
+}
+
+li.caption h3 {
+  margin: 0;
+  font-size: 1.75rem;
+  line-height: 2;
+  color:#fff
+}
+
+li.caption h5 {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color:#fff
+}
+
+li.caption p {
+  margin: 0;
+  font-size: 1.125rem;
+  line-height: 1.25;
+  color:#fff
+}
+
+.title h1 {
+  font-family: futura-pt, sans-serif;
+  font-size: 3rem;
+  font-variant: small-caps;
+  letter-spacing: .03rem;
+  font-weight:400;
+  line-height:1.2;
+}
+
+.title h3 {
+  font-family: futura-pt, sans-serif;
+  font-size: 2rem;
+  font-variant: small-caps;
+  letter-spacing: .03rem;
+  font-weight:400;
+  line-height:1.2;
+}
+
+.about img {
+  float: left;
+  margin-right: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact img {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.contact h4 {
+  padding: 0;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.press > img {
+  float: left;
+  margin: 0;
+  margin-right: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.article {
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: .0625rem solid #e5e5e5;
+}
+
+
+.press h2 {
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+.press h3 {
+  padding: 0;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.press p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.press button {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.press button a{
+    font-size: 1.15rem;
+    line-height: 1.2 ;
+    color: #454545;
+}
+
+.press > div:first-child {
+  float: left;
+}
+
+.press > div:first-child > img {
+  float: left !important;
+  margin-right: 1.5rem !important;
+  margin-bottom: 1rem !important;
+}
+
+@media (max-width: 1366px) {}
+@media (max-width: 1112px) {}
+@media (max-width: 1024px) {}
+@media (max-width: 800px) {}
+@media (max-width: 768px) {}
+@media (max-width: 736px) {
+  h1.logo {background: none;font-size: 2rem;line-height: 4rem;color: #454545;}
+  .menubtn .ant-btn {margin-top: 1rem;}
+  .anticon-menu {font-size: 24px;}
+  span.ant-typography a {padding: 0.25rem 0; font-size: 1.5rem;}
+}
+@media (max-width: 667px) {
+  h1.logo {background: none;font-size: 2rem;line-height: 4rem;color: #454545;}
+  .menubtn .ant-btn {margin-top: 1rem;}
+  .anticon-menu {font-size: 24px;}
+  span.ant-typography a {padding: 0.25rem 0; font-size: 1.5rem;}
+}
+@media (max-width: 568px) {
+  h1.logo {background: none;font-size: 2rem;line-height: 4rem;color: #454545;}
+  .menubtn .ant-btn {margin-top: 1rem;}
+  .anticon-menu {font-size: 24px;}
+  span.ant-typography a {padding: 0.25rem 0; font-size: 1.5rem;}
+}
+@media (max-width: 414px) {
+  h1.logo {background: none;font-size: 2rem;line-height: 4rem;color: #454545;}
+  .menubtn .ant-btn {margin-top: 1rem;}
+  .anticon-menu {font-size: 24px;}
+  span.ant-typography a {padding: 0.25rem 0; font-size: 1.5rem;}
+}
+@media (max-width: 375px) {
+  h1.logo {background: none;font-size: 2rem;line-height: 4rem;color: #454545;}
+  .menubtn .ant-btn {margin-top: 1rem;}
+  .anticon-menu {font-size: 24px;}
+  span.ant-typography a {padding: 0.25rem 0; font-size: 1.5rem;}
+}
+@media (max-width: 320px) {
+  h1.logo {background: none;font-size: 2rem;line-height: 4rem;color: #454545;}
+  h2.subtitle {font-size: 1.5rem;}
+  .menubtn .ant-btn {margin-top: 1rem;}
+  .anticon-menu {font-size: 24px;}
+  span.ant-typography a {padding: 0.25rem 0; font-size: 1.5rem;}
+}
